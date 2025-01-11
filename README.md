@@ -73,6 +73,7 @@ const questions = [
       <li>Open the <code>index.html</code> file in your preferred browser.</li>
     </ol>
 
-   
+    <p>Check out the live demo or contribute to the project on <a href="https://github.com/" target="_blank">GitHub</a>.</p>
+  </div>
 </body>
 </html>
