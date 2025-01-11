@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Home Section -->
+  <div id="home" class="container">
+    <h1>Welcome to the Quiz</h1>
+    <form id="start-form">
+      <input type="text" id="username" placeholder="Enter your name" required>
+      <button type="submit" class="btn">Start Quiz</button>
+    </form>
+  </div>
+
+  <!-- Quiz Section -->
+  <div id="quiz" class="container hidden">
+    <h2 id="greeting"></h2>
+    <div id="question-box">
+      <h3 id="question"></h3>
+      <ul id="options"></ul>
+    </div>
+    <button id="next-btn" class="btn" disabled>Next</button>
+  </div>
+
+  <!-- Result Section -->
+  <div id="result" class="container hidden">
+    <h2>Quiz Completed!</h2>
+    <p>Thank you, <span id="user-name"></span>.</p>
+    <p>Your final score is: <span id="score"></span>/<span id="total-questions"></span>.</p>
+    <button id="restart-btn" class="btn">Restart</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
