@@ -1,56 +1,12 @@
-# Online_quiz
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Online Quiz Application - Description</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f9;
-      color: #333;
-    }
-    .container {
-      max-width: 800px;
-      margin: 50px auto;
-      padding: 20px;
-      background: #fff;
-      border-radius: 8px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    }
-    h1, h2 {
-      color: #4caf50;
-    }
-    pre, code {
-      background: #f4f4f9;
-      padding: 10px;
-      display: block;
-      border-radius: 5px;
-      margin: 20px 0;
-      overflow-x: auto;
-    }
-    ul {
-      margin: 20px 0;
-      padding-left: 20px;
-    }
-    li {
-      margin-bottom: 10px;
-    }
-    a {
-      color: #4caf50;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
 </head>
 <body>
-  <div class="container">
+  <div>
     <h1>Online Quiz Application</h1>
     <p>This is a responsive and interactive online quiz application built using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>. It demonstrates front-end development skills through dynamic content rendering, user interaction, and visual feedback.</p>
 
@@ -117,7 +73,6 @@ const questions = [
       <li>Open the <code>index.html</code> file in your preferred browser.</li>
     </ol>
 
-    <p>Check out the live demo or contribute to the project on <a href="https://github.com/" target="_blank">GitHub</a>.</p>
-  </div>
+   
 </body>
 </html>
