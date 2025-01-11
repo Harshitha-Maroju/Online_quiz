@@ -9,18 +9,7 @@
     <h1>Online Quiz Application</h1>
     <p>This is a responsive and interactive online quiz application built using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>. It demonstrates front-end development skills through dynamic content rendering, user interaction, and visual feedback.</p>
 
-    <h2>Features</h2>
-    <ul>
-      <li>Welcome screen with user name input.</li>
-      <li>Dynamic questions loaded from a JavaScript array.</li>
-      <li>Visual feedback for the selected option.</li>
-      <li>Score tracking and results display at the end of the quiz.</li>
-      <li>Responsive design for both desktop and mobile.</li>
-      <li>Option to restart the quiz after completion.</li>
-    </ul>
-
-    <h2>Project Structure</h2>
-    <pre>
+   
 📁 quiz-app/
 ├── index.html       # Main HTML file
 ├── style.css        # Styling for the application
